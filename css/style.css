@@ -3,6 +3,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #D65045;
+    height: 100vh;
+    font-family: MonumentExtended-Ultrabold;
 }
 
 @font-face {
@@ -20,7 +22,6 @@ body {
 #h2 {
     font-size: 2em;
     font-weight: bold;
-    font-family: MonumentExtended-Ultrabold;
     margin-right:auto;
 }
 
@@ -31,7 +32,6 @@ body {
     font-size: 1.3em;
     color: black;
     font-weight: bold;
-    font-family: MonumentExtended-Ultrabold;
 }
 
 hr {
@@ -45,4 +45,43 @@ hr {
     height: 3.7vh;
     margin: 0 1vh;
     padding: 0 0 0 3vh;
+}
+
+main {
+    display: flex;
+    height: 80vh;
+    align-items: left;
+    flex-direction: column;
+    margin: 0 0 0 15vh;
+
+}
+
+#text {
+    font-size: 1.1em;
+    gap: 5vh;
+    margin: 3vh 0 10vh 0;
+}
+
+p {
+    padding-bottom:3vh ;
+}
+
+#p1 {
+    font-size: 2em;
+}
+
+#explore {
+    width: 80vh;
+    height: 10vh;
+    border: none;
+    border-radius: 1vh;
+    font-size: 2em;
+    background-color: #69251f;
+    cursor: pointer;
+    font-family: MonumentExtended-Ultrabold;
+    transition: 0.6s;
+}
+
+#explore:hover {
+    background-color: #643733;
 }
